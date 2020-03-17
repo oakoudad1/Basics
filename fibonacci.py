@@ -7,5 +7,5 @@ for i in range(n):
 	print(str(z))
 	a=b
 	b=z
-print("\nEstos son los primeros " + str(n) + " numeros de la sucesión de Fibonacci")
+print("\nEstos son los primeros " + str(n) + " números de la sucesión de Fibonacci")
 	
