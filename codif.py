@@ -1,6 +1,11 @@
 #3 bits encoder dec2bin 
 while True: 
-	dec=int(input("\nIntroduzca un numero decimal entre el 0 y el 7: "));
+	try:
+		dec=0
+		dec=int(input("\nIntroduzca un numero decimal entre el 0 y el 7: "));
+	except ValueError:
+		print("\nEso no es un numero")
+		exit()
 	if dec<0 or dec>7:
 		print("\nEl numero debe estar entre 0 y 7")
 		break
