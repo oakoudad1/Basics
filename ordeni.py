@@ -13,5 +13,5 @@ while swapped:
             swapped = True
             miLista[i], miLista[i + 1] = miLista[i + 1], miLista[i]
 
-print("\nOrdenado:")
+print("\nLista ordenada:")
 print(miLista)
